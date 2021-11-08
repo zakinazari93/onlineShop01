@@ -53,7 +53,7 @@ namespace KVwWPF.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/KVwWPF;component/views/rechnungwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KVwWPF;V1.0.0.0;component/views/rechnungwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\RechnungWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

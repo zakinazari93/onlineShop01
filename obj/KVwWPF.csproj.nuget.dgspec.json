@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\WIFI C# Unterlagen\\Zaki Projekt\\KVwWPF RICHTIG\\KVwWPF.csproj": {}
+    "C:\\Users\\Zia Nazari\\OneDrive\\Desktop\\myproject\\KVwWPF.csproj": {}
   },
   "projects": {
-    "F:\\WIFI C# Unterlagen\\Zaki Projekt\\KVwWPF RICHTIG\\KVwWPF.csproj": {
+    "C:\\Users\\Zia Nazari\\OneDrive\\Desktop\\myproject\\KVwWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\WIFI C# Unterlagen\\Zaki Projekt\\KVwWPF RICHTIG\\KVwWPF.csproj",
+        "projectUniqueName": "C:\\Users\\Zia Nazari\\OneDrive\\Desktop\\myproject\\KVwWPF.csproj",
         "projectName": "KVwWPF",
-        "projectPath": "F:\\WIFI C# Unterlagen\\Zaki Projekt\\KVwWPF RICHTIG\\KVwWPF.csproj",
+        "projectPath": "C:\\Users\\Zia Nazari\\OneDrive\\Desktop\\myproject\\KVwWPF.csproj",
         "packagesPath": "C:\\Users\\Zia Nazari\\.nuget\\packages\\",
-        "outputPath": "F:\\WIFI C# Unterlagen\\Zaki Projekt\\KVwWPF RICHTIG\\obj\\",
+        "outputPath": "C:\\Users\\Zia Nazari\\OneDrive\\Desktop\\myproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zia Nazari\\AppData\\Roaming\\NuGet\\NuGet.Config",

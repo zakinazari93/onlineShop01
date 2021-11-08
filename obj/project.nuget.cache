@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGuoi3JF9qQndA6SeboDQPSlEWnRuXCCFfEAgUjXDEuWzgReiiz/rNnBtSWM7ecCT/aFklnDkjtLOvhDFRhi9Q==",
+  "dgSpecHash": "2Razw2HMSOnn7tASqcA9eY5TF+lbB9lqz70a6tnZMnaFLHbrmcIKWxOvZn2DEfJwlmyZHMEzJEWoqDxvrPPtBQ==",
   "success": true,
-  "projectFilePath": "F:\\WIFI C# Unterlagen\\Zaki Projekt\\KVwWPF RICHTIG\\KVwWPF.csproj",
+  "projectFilePath": "C:\\Users\\Zia Nazari\\OneDrive\\Desktop\\myproject\\KVwWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zia Nazari\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Zia Nazari\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
