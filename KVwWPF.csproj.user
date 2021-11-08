@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\EditKategWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditKundeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditMaWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditProdWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditRechWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditRegalWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\KundeAnmeldungWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MaAdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MaAnmeldungWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ProduktWahlWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RechnungWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\EditKategWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditKundeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditMaWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditProdWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditRechWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditRegalWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\KundeAnmeldungWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MaAdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MaAnmeldungWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ProduktWahlWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RechnungWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ZugangsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

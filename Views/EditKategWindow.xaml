@@ -1,0 +1,47 @@
+﻿<Window x:Class="KVwWPF.Views.EditKategWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KVwWPF.Views"
+        mc:Ignorable="d"
+        Title="EditKategWindow" Height="400" Width="334">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="512*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="242*"/>
+            <RowDefinition Height="55*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Kategorie Verwalten" HorizontalAlignment="Center" VerticalAlignment="Center" Width="179" Height="39" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Grid.Column="1"/>
+        <DataGrid Grid.ColumnSpan="2" Margin="0,0,0,0" Grid.Row="1" AutoGenerateColumns="False" ItemsSource="{Binding EditKat}" SelectedItem="{Binding SelektedKat}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header=" Kategorien" Width="200"  Binding="{Binding KategorieName}"></DataGridTextColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="0" Content="Delete" ToolTip="Editieren eines Adresseintrages" Command="{Binding DataContext.DelCmd, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type DataGrid}}}"></Button>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="2" Grid.ColumnSpan="2" Margin="0,27,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Speichern" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Command="{Binding SpeichernCmd}"/>
+            <Button Content="Verlassen" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Command="{Binding VerlassenCmd}"/>
+        </Grid>
+
+    </Grid>
+</Window>

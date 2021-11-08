@@ -1,0 +1,60 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "KVwProDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "Models",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "KVwWPF",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Kategorie]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Kunde]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mitarbeiter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProdRechZuordnung]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Produkt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rechnung]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Regal]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "desktop-u2358vg.KVwProDB.dbo",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}
